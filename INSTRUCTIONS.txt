@@ -1,0 +1,72 @@
+# Al Tapas Website - Complete Package
+
+## 📁 Files Included:
+
+1. **index.html** - Complete website with all pages and sections
+2. **style.css** - Modern dark theme with gradient styling
+3. **app.js** - Interactive JavaScript functionality
+4. **README.md** - Complete documentation and setup guide
+
+## 🚀 Quick Start Guide:
+
+### Option 1: GitHub Pages (FREE Hosting)
+1. Go to GitHub.com → Sign in/Create account
+2. Click "New repository"
+3. Name: `al-tapas-modern` (make it Public)
+4. Upload all 4 files from this ZIP
+5. Go to Settings → Pages → Select "main" branch
+6. Your site will be live at: `https://yourusername.github.io/al-tapas-modern/`
+
+### Option 2: Local Testing
+1. Extract all files to a folder
+2. Double-click `index.html` to open in browser
+3. All functionality works locally
+
+## ✨ Website Features:
+
+✅ Modern dark theme with Spanish red gradients
+✅ "Al Tapas: Sharing pleasures" centered hero
+✅ "Authentic tapas, shared with joy in the heart of Lisbon." subtitle
+✅ Centered "Explore Our Menu" button
+✅ Complete Portuguese/English menu with your exact items
+✅ Mobile responsive design
+✅ Google Maps integration
+✅ SEO optimized
+✅ No frameworks - just HTML/CSS/JS
+
+## 🔧 Customization:
+
+### Edit Menu Items:
+- Open `index.html` in any text editor
+- Find sections marked with `<!-- EDITABLE: -->`
+- Update menu items, prices, contact info
+
+### Change Colors:
+- Open `style.css`
+- Modify the CSS variables at the top:
+  ```css
+  --color-primary: #C41E3A;          /* Spanish Red */
+  --gradient-hero: linear-gradient(135deg, #8B0000 0%, #2d1b1b 50%, #1a1a1a 100%);
+  ```
+
+### Add Favicon (Optional):
+- Create a 16x16 pixel .ico file
+- Name it `favicon.ico`
+- Place in same folder as `index.html`
+
+## 📞 Your Restaurant Info:
+
+**Al Tapas**
+📍 Rua Cais de Santarém, 26 Lisboa, Portugal
+📞 +351 913 890 527
+🌐 Instagram: @altapaslisboa
+🎵 TikTok: @altapaslisboa
+
+## 🆘 Need Help?
+
+Check the README.md file for detailed instructions or:
+- Search "GitHub Pages tutorial" on YouTube
+- All content marked `<!-- EDITABLE: -->` can be customized
+- Test locally first, then upload to GitHub
+
+**Your modern tapas website is ready! 🚀**

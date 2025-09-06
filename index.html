@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Al Tapas is the best spot for tapas food and authentic food in Lisbon. Sharing pleasures with traditional Iberian flavors in the heart of Lisboa.">
+    <meta name="keywords" content="Tapas Lisbon, best tapas, authentic cuisine, Spanish restaurant Lisboa">
+    <meta name="author" content="Al Tapas">
+
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Al Tapas Lisbon | Authentic Tapas Restaurant in Lisboa">
+    <meta property="og:description" content="Al Tapas is the best spot for tapas food and authentic food in Lisbon. Sharing pleasures with traditional Iberian flavors in the heart of Lisboa.">
+    <meta property="og:type" content="restaurant">
+    <meta property="og:url" content="https://yourusername.github.io/al-tapas-modern/">
+    <meta property="og:image" content="assets/img/hero.jpg">
+
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://yourusername.github.io/al-tapas-modern/">
+
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <title>Al Tapas Lisbon | Authentic Tapas Restaurant in Lisboa</title>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      "name": "Al Tapas",
+      "description": "Authentic tapas restaurant serving traditional Iberian flavors in the heart of Lisbon",
+      "image": "assets/img/hero.jpg",
+      "url": "https://yourusername.github.io/al-tapas-modern/",
+      "telephone": "+351 913 890 527",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua Cais de Santarém, 26",
+        "addressLocality": "Lisboa",
+        "addressCountry": "Portugal"
+      },
+      "servesCuisine": "Spanish/Portuguese Tapas",
+      "priceRange": "€€",
+      "openingHours": "Mo-Su 12:00-23:00",
+      "sameAs": [
+        "https://www.instagram.com/altapaslisboa/",
+        "https://www.tiktok.com/@altapaslisboa"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <h2>Al Tapas</h2>
+            </div>
+            <div class="navbar__menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#menu" class="nav-link">Menu</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="navbar__toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section hero">
+        <div class="hero__container">
+            <div class="hero__content">
+                <!-- EDITABLE: Main headline -->
+                <h1 class="hero__title">Al Tapas: Sharing pleasures</h1>
+                <!-- EDITABLE: Subtitle -->
+                <p class="hero__subtitle">Authentic tapas, shared with joy in the heart of Lisbon.</p>
+                <!-- EDITABLE: CTA button text -->
+                <button class="hero__cta" id="hero-cta">Explore Our Menu</button>
+            </div>
+            <!-- EDITABLE: Replace with your hero image -->
+            <div class="hero__image">
+                <img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?w=800&h=600&fit=crop" alt="Authentic tapas board with cheese, bread and wine" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Highlights Section -->
+    <section class="section highlights">
+        <div class="highlights__container">
+            <h2 class="section__title">Why Choose Al Tapas</h2>
+            <div class="highlights__grid">
+                <!-- EDITABLE: Highlight cards content -->
+                <div class="highlight__card">
+                    <h3>Authentic cuisine</h3>
+                    <p>Traditional Iberian flavors made with care.</p>
+                </div>
+                <div class="highlight__card">
+                    <h3>Fresh ingredients</h3>
+                    <p>We source quality produce and specialties.</p>
+                </div>
+                <div class="highlight__card">
+                    <h3>Daily specials</h3>
+                    <p>Ask for today's chef selections.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="testimonials__container">
+            <h2 class="section__title">What Our Guests Say</h2>
+            <div class="testimonials__grid">
+                <!-- EDITABLE: Testimonials content -->
+                <div class="testimonial__card">
+                    <p>"The best tapas we had in Lisbon!"</p>
+                    <span class="testimonial__author">— Emma L.</span>
+                </div>
+                <div class="testimonial__card">
+                    <p>"Simple, authentic, and delicious."</p>
+                    <span class="testimonial__author">— João P.</span>
+                </div>
+                <div class="testimonial__card">
+                    <p>"Perfect for sharing with friends."</p>
+                    <span class="testimonial__author">— Marta G.</span>
+                </div>
+                <div class="testimonial__card">
+                    <p>"Warm vibes and great wine list."</p>
+                    <span class="testimonial__author">— Lucas R.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="section menu" style="display: none;">
+        <div class="menu__container">
+            <h1 class="section__title">Our Menu</h1>
+            <!-- EDITABLE: Menu introduction -->
+            <p class="menu__intro">Discover our authentic selection of traditional Iberian tapas, crafted with the finest ingredients and served with passion. Each dish tells a story of our culinary heritage.</p>
+
+            <!-- Tapas -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Tapas</h2>
+                <div class="menu__items">
+                    <!-- EDITABLE: Menu items and prices -->
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Pastelinhos de Bacalhau 2/un.</span>
+                            <span class="menu__item-name-en">Codfish Cakes 2 Un.</span>
+                        </div>
+                        <span class="menu__item-price">4,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Croquetes de Vitela 2/un.</span>
+                            <span class="menu__item-name-en">Beef Croquettes 2 Un.</span>
+                        </div>
+                        <span class="menu__item-price">4,20 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Queijo de Ovelha</span>
+                            <span class="menu__item-name-en">Sheep Cheese</span>
+                        </div>
+                        <span class="menu__item-price">7,80 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Queijo de Cabra</span>
+                            <span class="menu__item-name-en">Goat Cheese</span>
+                        </div>
+                        <span class="menu__item-price">7,80 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Queijo da Ilha</span>
+                            <span class="menu__item-name-en">Açores Cheese</span>
+                        </div>
+                        <span class="menu__item-price">7,80 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Presunto Ibérico</span>
+                            <span class="menu__item-name-en">Ibéria Ham</span>
+                        </div>
+                        <span class="menu__item-price">9,80 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Paio do Lombo</span>
+                            <span class="menu__item-name-en">Pork Loin (Cured)</span>
+                        </div>
+                        <span class="menu__item-price">7,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Chourição</span>
+                            <span class="menu__item-name-en">Pork Sausage (Cured)</span>
+                        </div>
+                        <span class="menu__item-price">7,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Tábua de Queijos Portugueses</span>
+                            <span class="menu__item-name-en">Portuguese Cheese board</span>
+                        </div>
+                        <span class="menu__item-price">12,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Tábua de Enchidos Portugueses</span>
+                            <span class="menu__item-name-en">Portuguese Sausages board</span>
+                        </div>
+                        <span class="menu__item-price">12,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Boquerones Marinados</span>
+                            <span class="menu__item-name-en">Marinated Boquerones</span>
+                        </div>
+                        <span class="menu__item-price">6,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Anchovas do Cantábrico</span>
+                            <span class="menu__item-name-en">Cantabrian Anchovies</span>
+                        </div>
+                        <span class="menu__item-price">7,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Pimentos de Piquillo</span>
+                            <span class="menu__item-name-en">Piquillo Peppers</span>
+                        </div>
+                        <span class="menu__item-price">6,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Salmão Fumado</span>
+                            <span class="menu__item-name-en">Smoked Salmon</span>
+                        </div>
+                        <span class="menu__item-price">9,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Gambas Grelhadas</span>
+                            <span class="menu__item-name-en">Grilled Shrimps</span>
+                        </div>
+                        <span class="menu__item-price">13,50 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Salads -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Saladas / Salads</h2>
+                <div class="menu__items">
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Tomate e Mozzarella</span>
+                            <span class="menu__item-name-en">Mozzarella and Tomato</span>
+                        </div>
+                        <span class="menu__item-price">8,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Maionese de Gambas</span>
+                            <span class="menu__item-name-en">Shrimp and Maionese</span>
+                        </div>
+                        <span class="menu__item-price">10,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Salmão Fumado</span>
+                            <span class="menu__item-name-en">Smoked Salmon</span>
+                        </div>
+                        <span class="menu__item-price">10,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Queijo de Cabra</span>
+                            <span class="menu__item-name-en">Goat Cheese</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Peito de Frango</span>
+                            <span class="menu__item-name-en">Chicken Breast</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Vegetariana</span>
+                            <span class="menu__item-name-en">Vegetarian</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Extras -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Extras</h2>
+                <div class="menu__items">
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Pão</span>
+                            <span class="menu__item-name-en">Bread</span>
+                        </div>
+                        <span class="menu__item-price">2,00 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Azeitonas</span>
+                            <span class="menu__item-name-en">Olives</span>
+                        </div>
+                        <span class="menu__item-price">3,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Salada da Casa</span>
+                            <span class="menu__item-name-en">Home salad</span>
+                        </div>
+                        <span class="menu__item-price">5,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Chips de Batata doce</span>
+                            <span class="menu__item-name-en">Sweet potato crisps</span>
+                        </div>
+                        <span class="menu__item-price">3,90 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sandwiches -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Sandes / Sandwiches</h2>
+                <div class="menu__items">
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Queijo da Ilha</span>
+                            <span class="menu__item-name-en">Açores Cheese</span>
+                        </div>
+                        <span class="menu__item-price">9,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Presunto Ibérico</span>
+                            <span class="menu__item-name-en">Iberian Ham</span>
+                        </div>
+                        <span class="menu__item-price">9,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Presunto Ibérico e Queijo</span>
+                            <span class="menu__item-name-en">Iberian Ham and Cheese</span>
+                        </div>
+                        <span class="menu__item-price">10,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Peito Frango</span>
+                            <span class="menu__item-name-en">Chicken Breast</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Paio do Lombo</span>
+                            <span class="menu__item-name-en">Pork Loin (Cured)</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Chourição</span>
+                            <span class="menu__item-name-en">Pork Sausage (Cured)</span>
+                        </div>
+                        <span class="menu__item-price">8,90 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Sobremesas / Dessert</h2>
+                <div class="menu__items">
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Chocolate Fudge e Gelado</span>
+                            <span class="menu__item-name-en">Chocolate Fudge w/ Ice cream</span>
+                        </div>
+                        <span class="menu__item-price">5,50 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Gelado de morango</span>
+                            <span class="menu__item-name-en">Strawberry Ice cream</span>
+                        </div>
+                        <span class="menu__item-price">4,00 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Gelado de baunilha</span>
+                            <span class="menu__item-name-en">Vanilla Ice cream</span>
+                        </div>
+                        <span class="menu__item-price">4,00 €</span>
+                    </div>
+                    <div class="menu__item">
+                        <div class="menu__item-names">
+                            <span class="menu__item-name-pt">Sorbet de Limão e Vodka</span>
+                            <span class="menu__item-name-en">Lemon Sorbet w/ Vodka</span>
+                        </div>
+                        <span class="menu__item-price">6,50 €</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Daily Specials -->
+            <div class="menu__section">
+                <h2 class="menu__section-title">Daily Specials</h2>
+                <!-- EDITABLE: Daily specials list -->
+                <div class="daily__specials">
+                    <p>Ask our staff about today's special selections, featuring seasonal ingredients and chef's recommendations.</p>
+                    <ul>
+                        <li>Fresh catch of the day</li>
+                        <li>Seasonal vegetable tapas</li>
+                        <li>Chef's signature pairing</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="menu__vat-note">VAT included</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about" style="display: none;">
+        <div class="about__container">
+            <h1 class="section__title">About Al Tapas</h1>
+
+            <!-- EDITABLE: About content -->
+            <div class="about__content">
+                <div class="about__text">
+                    <p>At Al Tapas, we celebrate the rich heritage of Iberian culture through authentic flavors that have been passed down through generations. Our passion lies in bringing you the true essence of Spanish and Portuguese cuisine, where every dish tells a story of tradition, authenticity, and love for culinary arts.</p>
+
+                    <p>Rooted in the heart of Lisbon, we source the finest ingredients from local markets and trusted suppliers, ensuring that each tapas dish reflects the quality and authenticity our guests deserve. Our commitment to traditional preparation methods, combined with the warm hospitality that defines Iberian culture, creates an unforgettable dining experience.</p>
+
+                    <p>From our carefully selected cheeses and cured meats to our fresh seafood and seasonal vegetables, every element on our menu represents our dedication to preserving and sharing the culinary treasures of Spain and Portugal. We believe that great food brings people together, and our tapas are designed for sharing, laughter, and creating memorable moments with friends and family.</p>
+                </div>
+
+                <!-- EDITABLE: Team/Story images -->
+                <div class="about__images">
+                    <div class="about__image">
+                        <img src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=500&h=400&fit=crop" alt="Traditional Spanish cooking" loading="lazy">
+                    </div>
+                    <div class="about__image">
+                        <img src="https://images.unsplash.com/photo-1559847844-d98a4c7c8567?w=500&h=400&fit=crop" alt="Restaurant interior atmosphere" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact" style="display: none;">
+        <div class="contact__container">
+            <h1 class="section__title">Contact Us</h1>
+
+            <div class="contact__content">
+                <div class="contact__info">
+                    <!-- EDITABLE: Contact information -->
+                    <div class="contact__details">
+                        <h3>Visit Us</h3>
+                        <address>
+                            <p><strong>Al Tapas</strong></p>
+                            <p>Rua Cais de Santarém, 26<br>
+                            Lisboa, Portugal</p>
+                        </address>
+
+                        <div class="contact__phone">
+                            <h3>Call Us</h3>
+                            <p><a href="tel:+351913890527">+351 913 890 527</a></p>
+                        </div>
+
+                        <div class="contact__social">
+                            <h3>Follow Us</h3>
+                            <!-- EDITABLE: Social media links -->
+                            <div class="social__links">
+                                <a href="https://www.instagram.com/altapaslisboa/" target="_blank" rel="noopener" aria-label="Follow us on Instagram">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                    </svg>
+                                    Instagram
+                                </a>
+                                <a href="https://www.tiktok.com/@altapaslisboa" target="_blank" rel="noopener" aria-label="Follow us on TikTok">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                                    </svg>
+                                    TikTok
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="contact__map">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.8066096756966!2d-9.139337684673863!3d38.71661637961234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1933a24aa81c17%3A0x880c5b4c7c79b7!2sRua%20Cais%20de%20Santar%C3%A9m%2C%20Lisboa%2C%20Portugal!5e0!3m2!1sen!2spt!4v1625000000000!5m2!1sen!2spt" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Al Tapas Location">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <h3>Al Tapas</h3>
+                    <!-- EDITABLE: Footer tagline -->
+                    <p>Al Tapas is the best spot for tapas food and authentic food in Lisbon.</p>
+                </div>
+
+                <div class="footer__nav">
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer__bottom">
+                <p>&copy; 2025 Al Tapas. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
