@@ -450,3 +450,10 @@ if ('serviceWorker' in navigator) {
             });
     });
 }
+function toggleMobileMenu() {
+  navMenu.classList.toggle('active');   // keep this
+  navMenu.classList.toggle('is-open');  // add this
+  navToggle.classList.toggle('active');
+
+  document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
+}

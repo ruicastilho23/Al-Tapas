@@ -1006,3 +1006,40 @@ a:focus {
   /* 4) When jumping to #contact etc., avoid the sticky header covering it */
   section[id] { scroll-margin-top: 88px; }
 }
+@media (max-width: 768px) {
+  /* Center hero content */
+  .hero {
+    padding: 96px 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .hero__container, .hero__content {
+    width: 100%;
+    max-width: 28rem;
+    margin: 0 auto;
+  }
+
+  /* Navigation menu as dropdown */
+  .navbar__menu {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    background: #111;
+    padding: 12px 0;
+    gap: 12px;
+  }
+
+  .navbar__menu.active {
+    display: flex;
+  }
+
+  /* Prevent sticky header overlap when jumping to anchors */
+  section[id] {
+    scroll-margin-top: 88px;
+  }
+}
+
