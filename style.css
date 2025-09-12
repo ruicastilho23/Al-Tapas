@@ -177,7 +177,8 @@ a:hover {
     margin-top: 80px;
 }
 
-.section:first-child {
+.section:first-child,
+.hero {
     margin-top: 0;
 }
 
@@ -193,6 +194,7 @@ a:hover {
 /* Hero Section */
 .hero {
     min-height: 100vh;
+    padding-top: 80px;
     background: var(--gradient-hero);
     display: flex;
     align-items: center;
@@ -973,7 +975,10 @@ a:focus {
 
     /* Hero section mobile layout */
     .hero {
-        padding: calc(80px + var(--space-lg)) var(--space-md) var(--space-lg);
+        padding-top: calc(80px + var(--space-lg)) !important;
+        padding-left: var(--space-md);
+        padding-right: var(--space-md);
+        padding-bottom: var(--space-lg);
         min-height: auto;
     }
 
