@@ -174,7 +174,7 @@ a:hover {
 /* Section Base */
 .section {
     padding: var(--space-2xl) var(--space-md);
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .section:first-child,
