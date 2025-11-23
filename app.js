@@ -15,6 +15,50 @@ document.addEventListener('DOMContentLoaded', function() {
     const footerNavLinks = document.querySelectorAll('.footer__nav a');
     const heroCta = document.querySelector('.hero__cta');
 
+    // Update meta tags based on section
+const metaTagConfig = {
+    'home': {
+        title: 'Al Tapas - Authentic Portuguese Tapas & Wine Bar | Lisbon',
+        description: 'Experience authentic Portuguese tapas & Iberian cuisine in Lisbon\'s historic center. Award-winning wines, fresh seafood, outdoor seating. Book your table today!'
+    },
+    'menu': {
+        title: 'Menu | Al Tapas Lisbon – Portuguese Tapas, Seafood & Wine Specials',
+        description: 'Discover our menu of Portuguese tapas, fresh seafood, vegetarian dishes & wine specials. Perfect for sharing in the heart of Lisbon. See today\'s chef picks!'
+    },
+    'about': {
+        title: 'About Al Tapas | Traditional Iberian Tapas Bar in Lisbon',
+        description: 'Meet the team behind Al Tapas. Our story, culture & passion for Iberian cuisine. See why we\'re Lisbon\'s favorite for authentic food & warm hospitality.'
+    },
+    'reservations': {
+        title: 'Reservations | Book Your Table at Al Tapas Lisbon Online',
+        description: 'Reserve your spot at Al Tapas—Lisbon\'s top Portuguese tapas & wine bar. Secure your table for dinner, events, or group. Fast online booking, instant confirmation!'
+    },
+    'wine': {
+        title: 'Wine List | Al Tapas – Award-Winning Portuguese Wines Lisbon',
+        description: 'Explore our curated wine list, featuring Portugal\'s best Douro, Alentejo, & Vinho Verde offerings. Perfect pairings for authentic tapas. Taste excellence!'
+    }
+};
+
+function updateMetaTags(sectionId) {
+    const config = metaTagConfig[sectionId] || metaTagConfig['home'];
+    document.title = config.title;
+    
+    let descMeta = document.querySelector('meta[name="description"]');
+    if (descMeta) {
+        descMeta.setAttribute('content', config.description);
+    }
+    
+    let ogTitleMeta = document.querySelector('meta[property="og:title"]');
+    if (ogTitleMeta) {
+        ogTitleMeta.setAttribute('content', config.title);
+    }
+    
+    let ogDescMeta = document.querySelector('meta[property="og:description"]');
+    if (ogDescMeta) {
+        ogDescMeta.setAttribute('content', config.description);
+    }
+}
+
     // Initialize the application
     function init() {
         console.log('Al Tapas website initializing...');
@@ -121,6 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Show specific section
     function showSection(sectionId) {
         console.log('Showing section:', sectionId);
+            updateMetaTags(sectionId);
 
         // Hide all sections
         sections.forEach(section => {
